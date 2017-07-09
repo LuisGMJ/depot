@@ -53,3 +53,7 @@ gem 'jquery-rails'
 gem 'jquery-ui-rails'
 gem 'activemodel-serializers-xml'
 gem 'webpacker', '~> 2.0'
+
+gem 'bcrypt', git: 'https://github.com/codahale/bcrypt-ruby.git', :require => 'bcrypt'
+
+gem 'i18n-js', '~> 3.0'
